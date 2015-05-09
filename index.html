@@ -1,13 +1,38 @@
 ---
-layout : default
 title : a site that provide food recipe for the programmer.
 ---
-<!DOCTYPE HTML>
-<html>
-<head>
- <title>{{ page.title }}</title>
+
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="a site that provide food recipe for the programmer">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/css.css" type="text/css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/prettify.css" type="text/css" >
+  <link rel="stylesheet" href="/css/github-prettify-theme.css">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
 </head>
 <body>
-test
+  <div class="container">
+    <section class="header">
+      <h2 class="title"><a href="/about/">Food For Programmer</a></h2>
+      <div class="value-props row">
+        <div class="three columns value-prop">
+          <a href="/recipe/"><img class="value-img" src="img/recipe.png">
+          <h4>Recipe</h4></a>
+        </div>
+        <div class="three columns value-prop">
+          <a href="/video/"><img class="value-img" src="img/video_recipe.gif">
+          <h4>Video</h4></a>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
